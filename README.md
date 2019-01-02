@@ -11,7 +11,7 @@ npm install --save just-a-select
 ```
 
 ```bash
-yarn add --save just-a-select
+yarn add just-a-select
 ```
 
 ## Usage
