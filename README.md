@@ -16,6 +16,8 @@ yarn add just-a-select
 
 ## Usage
 
+[Storybook example](https://pandelisz.github.io/just-a-select/)
+
 ```jsx
 import React, { Component } from 'react'
 
