@@ -10,17 +10,29 @@
 npm install --save just-a-select
 ```
 
+```bash
+yarn add --save just-a-select
+```
+
 ## Usage
 
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'just-a-select'
+import Select from 'just-a-select'
 
 class Example extends Component {
   render () {
     return (
-      <MyComponent />
+      <Select onChange={selectHasChanged()} options={
+        [
+          'Sarcoline',
+          'Coquelicot',
+          'Smaragdine',
+          'Mikado',
+          'Glaucous'
+        ]
+      } />
     )
   }
 }
